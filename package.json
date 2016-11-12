@@ -1,0 +1,22 @@
+{
+  "name": "torstenmosumgaard-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 3000",
+    "test": "xo"
+  },
+  "author": "Oskar Rough",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "micro": "^6.1.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
