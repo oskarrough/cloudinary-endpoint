@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+	"private": true,
   "scripts": {
     "start": "micro -p 3000",
     "deploy": "now -e NODE_ENV=production -e API_KEY=@api-key -e API_SECRET=@api-secret -e API_NAME=@api-name",
