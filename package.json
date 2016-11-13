@@ -1,23 +1,23 @@
 {
-	"name": "torstenmosumgaard-api",
-	"version": "0.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "micro -p 3000",
-		"deploy": "now -e NODE_ENV=production -e API_KEY=@api-key -e API_SECRET=@api-secret -e API_NAME=@api-name",
-		"test": "xo"
-	},
-	"author": "Oskar Rough",
-	"license": "ISC",
-	"dependencies": {
-		"dotenv": "^2.0.0",
-		"micro": "^6.1.0",
-		"request": "^2.78.0",
-		"request-promise": "^4.1.1",
-		"xo": "^0.17.0"
-	},
-	"xo": {
-		"semicolon": false
-	}
+  "name": "torstenmosumgaard-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 3000",
+    "deploy": "now -e NODE_ENV=production -e API_KEY=@api-key -e API_SECRET=@api-secret -e API_NAME=@api-name",
+    "test": "xo"
+  },
+  "author": "Oskar Rough",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "micro": "^6.1.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "semicolon": false
+  }
 }
