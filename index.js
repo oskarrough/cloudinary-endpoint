@@ -1,11 +1,16 @@
-const request = require('request-promise')
-require('dotenv').config({silent: true})
+require('dotenv').config()
+const got = require('got')
 
 const {API_KEY, API_SECRET, API_NAME} = process.env
-const url = `https://${API_KEY}:${API_SECRET}@api.cloudinary.com/v1_1/${API_NAME}/resources/image/upload?max_results=500`
+const auth = `${API_KEY}:${API_SECRET}`
+const url = `https://api.cloudinary.com/v1_1/${API_NAME}/resources/image/upload?max_results=500`
 
 module.exports = async (req, res) => {
 	res.setHeader('Access-Control-Allow-Origin', '*')
-	return await request(url)
+	const response = await got(url, {
+		auth,
+		json: true
+	})
+	return response.body
 }
 

@@ -3,22 +3,28 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-	"private": true,
+  "private": true,
   "scripts": {
-    "start": "micro -p 3000",
+    "start": "micro",
+    "dev": "micro-dev",
     "deploy": "now -e NODE_ENV=production -e API_KEY=@api-key -e API_SECRET=@api-secret -e API_NAME=@api-name",
     "test": "xo"
   },
   "author": "Oskar Rough",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^2.0.0",
-    "micro": "^6.1.0",
-    "request": "^2.78.0",
-    "request-promise": "^4.1.1",
-    "xo": "^0.17.0"
+    "dotenv": "^4.0.0",
+    "got": "^8.0.0",
+    "micro": "9.0.1",
+    "xo": "0.18.2"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
   },
   "xo": {
     "semicolon": false
-  }
+  },
+	"now": {
+		"alias": "keramik.now.sh"
+	}
 }
