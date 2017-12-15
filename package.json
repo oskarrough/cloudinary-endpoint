@@ -1,6 +1,6 @@
 {
   "name": "cloudinary-endpoint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A single HTTP endpoint to fetch images from a Cloudinary account",
   "main": "index.js",
   "private": true,
