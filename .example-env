@@ -6,4 +6,4 @@
 
 API_KEY=123
 API_SECRET=123abc
-API_NAME=helloworld
+CLOUD_NAME=helloworld
