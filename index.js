@@ -1,9 +1,9 @@
 require('dotenv').config()
 const got = require('got')
 
-const {API_KEY, API_SECRET, API_NAME} = process.env
+const {API_KEY, API_SECRET, CLOUD_NAME} = process.env
 const auth = `${API_KEY}:${API_SECRET}`
-const url = `https://api.cloudinary.com/v1_1/${API_NAME}/resources/image/upload?max_results=500`
+const url = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/resources/image/upload?max_results=500`
 
 module.exports = async (req, res) => {
 	res.setHeader('Access-Control-Allow-Origin', '*')

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "micro",
     "dev": "micro-dev",
-    "deploy": "now -e NODE_ENV=production -e API_KEY=@api-key -e API_SECRET=@api-secret -e API_NAME=@api-name",
+    "deploy": "now --dotenv -e NODE_ENV=production",
     "test": "xo"
   },
   "author": "Oskar Rough",
