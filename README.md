@@ -11,7 +11,7 @@ As an example, the website https://torstenmosumgaard.dk is fetching its images f
 If you're using [`now`](https://zeit.co/now) it is as easy as running this command:
 
 ```
-now oskarrough/cloudinary-endpoint -e CLOUD_NAME=abc -e API_KEY=123 -e API_SECRET=abc
+now oskarrough/cloudinary-endpoint -e CLOUD_NAME=xxx -e API_KEY=xxx -e API_SECRET=xxx
 ```
 
 Find your keys in the [Cloudinary console](https://cloudinary.com/console).
