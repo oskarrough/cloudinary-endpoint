@@ -1,6 +1,6 @@
 {
   "name": "cloudinary-endpoint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A single HTTP endpoint to fetch images from a Cloudinary account",
   "main": "index.js",
   "private": true,
@@ -11,17 +11,23 @@
     "test": "xo"
   },
   "author": "Oskar Rough",
-  "license": "ISC",
+  "repository": "oskarrough/cloudinary-endpoint",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "got": "^8.0.0",
-    "micro": "9.0.1",
-    "xo": "0.18.2"
+    "got": "^8.0.1",
+    "micro": "9.0.2"
   },
   "devDependencies": {
-    "micro-dev": "^1.4.0"
+    "xo": "0.18.2",
+    "micro-dev": "^2.1.0"
   },
   "xo": {
     "semicolon": false
-  }
+  },
+  "keywords": [
+    "micro",
+    "microservice",
+    "cloudinary"
+  ]
 }
