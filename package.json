@@ -14,13 +14,13 @@
   "repository": "oskarrough/cloudinary-endpoint",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "got": "^8.0.1",
-    "micro": "9.0.2"
+    "dotenv": "^8.2.0",
+    "got": "^11.7.0",
+    "micro": "9.3.4"
   },
   "devDependencies": {
-    "xo": "0.18.2",
-    "micro-dev": "^2.1.0"
+    "micro-dev": "^3.0.0",
+    "xo": "0.33.1"
   },
   "xo": {
     "semicolon": false
