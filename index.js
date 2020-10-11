@@ -8,7 +8,8 @@ const url = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/resources/image/uploa
 module.exports = async (req, res) => {
 	res.setHeader('Access-Control-Allow-Origin', '*')
 	const response = await got(url, {
-		auth,
+		username: API_KEY,
+		password: API_SECRET,
 		json: true
 	})
 	return response.body
