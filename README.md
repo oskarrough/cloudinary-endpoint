@@ -10,9 +10,7 @@ It is a handy way to create large galleries with all the (mostly free!) advantag
 
 If you're using [`now`](https://zeit.co/now) it is as easy as running this command:
 
-```
-now oskarrough/cloudinary-endpoint -e CLOUD_NAME=xxx -e API_KEY=xxx -e API_SECRET=xxx
-```
+https://vercel.com/import/settings?s=https%3A%2F%2Fgithub.com%2Foskarrough%2Fcloudinary-endpoint&id=303093522&b=master&env=API_KEY,API_SECRET,CLOUD_NAME
 
 Find your keys in the [Cloudinary console](https://cloudinary.com/console).
 
@@ -25,3 +23,4 @@ Alternatively (still using `now`), you can also store your keys in an `.env` fil
 - `yarn start` to start production server
 - `yarn dev` to develop
 - `yarn deploy` to deploy
+
